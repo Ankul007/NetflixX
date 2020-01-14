@@ -1,0 +1,28 @@
+.showContainer {
+    margin: 20px 10px;
+    padding-bottom: 120px;
+}
+
+.float {
+    float: left;
+    text-align: center;
+}
+.width14 {
+    width: 14%;
+}
+.iframe {
+    width: 90%;
+    height: 700px;
+    display: block;
+    margin: auto;
+}
+
+.image {
+    height: 120px;
+    width: 100px;
+}
+
+.plot {
+    width: 45%;
+    float: right;
+}

@@ -1,0 +1,22 @@
+.images {
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.container {
+    cursor: pointer;
+    height: 300px;
+    float: left;
+    width: 31%;
+    margin: 12px;
+    border: 1px solid black;
+}
+
+p {
+    margin: 5px;
+}
+
+h5 {
+    margin: 12px;
+}
