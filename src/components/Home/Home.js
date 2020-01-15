@@ -17,11 +17,11 @@ class Home extends React.Component {
     }
 
     handleSearch(event) {
-        const keyword = event.target.value;
+        const keyword = event.target.value.toLowerCase();
         var foundData = {shows:[]};
         if(keyword.length >= 3){
           this.state.originalData.shows.map((show) => {
-              if(show.title.search(`${keyword}`) >= 0){
+              if(show.title.toLowerCase().search(`${keyword}`) >= 0){
                     foundData.shows.push(show);
               }
             });
