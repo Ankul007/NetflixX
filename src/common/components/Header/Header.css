@@ -5,12 +5,14 @@
     height: 50px;
 }
 .back {
+    margin: 15px;
     cursor: pointer;
     float: right;
     color: whitesmoke;
 }
 
 .search {
+    margin: 15px;
     float: right;
     color: whitesmoke;
 }
