@@ -4,13 +4,37 @@
     padding-right: 10px;
 }
 
-.container {
-    cursor: pointer;
-    height: 300px;
-    float: left;
-    width: 31%;
-    margin: 12px;
-    border: 1px solid black;
+@media (min-width: 320px) {
+    .container {
+        cursor: pointer;
+        height: 300px;
+        float: left;
+        width: 100%;
+        margin: 12px;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 801px) {
+    .container {
+        cursor: pointer;
+        height: 300px;
+        float: left;
+        width: 46%;
+        margin: 12px;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        cursor: pointer;
+        height: 300px;
+        float: left;
+        width: 31%;
+        margin: 12px;
+        border: 1px solid black;
+    }
 }
 
 p {

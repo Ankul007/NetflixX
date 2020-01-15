@@ -38,7 +38,7 @@ class Shows extends React.Component {
           <div>
           <Header />
             {loading &&
-              (<img src='/images/loading.png' alt="chichi"/>)
+              (<img id="loader" src='/images/loading.png' alt="loader"/>)
             }
             {loaded && data.Response === "True" &&
                 (<div>
